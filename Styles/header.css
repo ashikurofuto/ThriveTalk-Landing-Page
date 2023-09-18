@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    box-shadow: 0px 1px 0px #E5E9F2;
+}
+.header-container {
+    display:flex;
+    width: 1110px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+img {
+    display:block;
+}
+
+.nav { 
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191f;
+}
+
+.nav-link {
+    margin-right: 32px;
+    color: #18191f;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color:#BC30F5;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+
+.appstore-item {
+    margin-left: 12px;
+}
+.appstore-item:first-child {
+    margin-left: 0;
+}

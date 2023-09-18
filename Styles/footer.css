@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background: #0b0d17;
+    height: 72px;
+    color: #d9dbe1;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social-item {
+    margin-left: 16px;
+}
+
+.footer-social-item:first-child {
+    margin-left: 0;
+}
